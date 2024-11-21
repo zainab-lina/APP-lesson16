@@ -1,0 +1,56 @@
+p {
+  padding-left: 10px;
+}
+ .about-product-image img {
+  width: 760px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  object-fit: cover;
+  height: 400px;
+ }
+
+ .about {
+  position: relative;
+ }
+
+ .caption {
+  width: 350px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  visibility: hidden;
+  opacity: 0.7;
+ }
+ .about:hover .caption {
+  visibility: visible;
+ }
+
+ .row img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+ }
+ body {
+  margin-top: 10px;
+  padding-top: 0px;
+ }
+
+ .team-members {
+  width: 250px;
+  text-align: center;
+ }
+
+ .team-members img {
+  object-fit: cover;
+ }
+ .title {
+  margin-top: auto;
+ }
